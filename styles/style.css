@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Monaco, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 120px;
+}
+
+.header div {
+    padding: 1px;
+}
+
+.header a.active {
+    color: darkgoldenrod;
+}
+
+.header a:hover {
+    color: chocolate;
+}
+
+.header a {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.accueilphoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    background-image: url("../public/images/accueil.jpg");
+    width: 100%;
+    background-size: 100vw 500px;
+    height: 500px;
+    color: white;
+}
+
+.accueilphoto div {
+    padding: 1px;
+}
+
+.button {
+    float: right;
+    margin-left: auto;
+    margin-right: 20%;
+
+}
+
+.titrealigne {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.bois {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../public/images/wood copy.jpg");
+    width: 100%;
+    background-size: 100vw 120px;
+    height: 120px;
+    color: white;
+}
+
+.boisaligne {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boisaligne h2 {
+    font-size: 30px;
+}
+
+.accueiltext {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.services div {
+    margin: 2% 2% 0;
+}
+
+.services a {
+    color: #b06238;
+    font-size: 20px;
+}
+
+.servicebutton {
+    display: block;
+    padding: 10%;
+    background-color: #b1b0b0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.servicebutton:hover {
+    background-color: #c4c1c4;
+}
+
+.devis {
+    height: 150px
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 110px;
+    background-color: #b06238;
+}
+.icon{
+    margin-left: 2%;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+}
+.icon img {
+    padding: 5px;
+}
+
+.tel {
+    margin-right: 40%;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+
+}
+
+.footerwood {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("../public/images/wood copy.jpg");
+    height: 150px;
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #b06238;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #d77a46;
+}
+
+
+
