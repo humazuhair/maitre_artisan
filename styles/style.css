@@ -14,10 +14,6 @@
     height: 120px;
 }
 
-.header div {
-    padding: 1px;
-}
-
 .header a.active {
     color: darkgoldenrod;
 }
@@ -41,14 +37,22 @@
     justify-content: space-around;
     text-align: left;
     background-image: url("../public/images/accueil.jpg");
-    width: 100%;
-    background-size: 100vw 500px;
+    background-size: cover;
     height: 500px;
     color: white;
-}
+    text-shadow: 2px 2px 10px #706969;}
 
 .accueilphoto div {
     padding: 1px;
+}
+
+.accueiltext {
+    padding-top: 5%;
+}
+
+.accueiltext p {
+    padding-top: 11px;
+    line-height: 1.8;
 }
 
 .button {
@@ -96,35 +100,81 @@ h1 {
 }
 
 .services {
+    align-content: center;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.services div {
-    margin: 2% 2% 0;
-}
 
 .services a {
-    color: #b06238;
+    padding: 2%;
+    color: #663d11;
     font-size: 20px;
+    transition: 0.1s;
+    display: inline;
+    text-decoration: none;
+}
+
+.services a:hover{
+    color: white;
+}
+
+.divcouverture {
+    background-image: url("../public/images/Couvertures/couv.JPG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 371px;
+    width: 370px;
+}
+
+.divouvrage {
+    background-image: url("../public/images/Ouvrages/HPIM2921.JPG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 371px;
+    width: 370px;
+    position: relative;
+}
+
+.divcharpente {
+    background-image: url("../public/images/Charpentes/charpente.JPG");
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 371px;
+    width: 370px;
+    position: relative;
+
 }
 
 .servicebutton {
     display: block;
-    padding: 10%;
-    background-color: #b1b0b0;
+    padding: 9%;
+    background-color: rgb(169, 160, 160);
     margin: 0;
     justify-content: center;
     text-align: center;
     text-decoration: none;
-
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
 }
 
 .servicebutton:hover {
-    background-color: #c4c1c4;
+    opacity: 0.9;
+}
+
+.slide {
+    margin-top: 5%;
 }
 
 .devis {
+    margin-top: 5%;
     height: 150px
 }
 
@@ -143,34 +193,88 @@ h1 {
     height: 110px;
     background-color: #b06238;
 }
-.icon{
+
+.icon {
     margin-left: 2%;
     text-align: center;
     align-content: center;
     text-decoration: none;
 }
+
 .icon img {
     padding: 5px;
 }
 
 .tel {
+    display: flex;
+    flex-direction: row;
     margin-right: 40%;
+    justify-content: space-between;
+
+}
+
+.tel a {
+    text-decoration: none;
+    color: black;
     text-align: center;
     align-content: center;
-    text-decoration: none;
+}
 
+.tel ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
 }
 
 .footerwood {
+    background-image: url("../public/images/wood copy.jpg");
+    height: auto;
+}
+
+.footercopyright {
+    margin: 3%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("../public/images/wood copy.jpg");
-    height: 150px;
+}
+
+.footercopyright input[type=text] {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
+
+.footercopyright input[type=submit] {
+    height: 41px;
+    width: 122px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: gray;
+    transition: 0.5s;
+}
+.footercopyright input[type=submit]:hover{
+    background-color: #1a2a59;
+}
+.email {
+    margin-right: 30%;
+}
+
+.email p {
+    color: white;
 }
 
 .address {
+    display: flex;
+    flex-direction: row;
     color: #FFFFFF;
+}
+
+.copyright {
+    padding: 1%;
+    color: white;
+    text-align: center;
 }
 
 button {
@@ -185,12 +289,10 @@ button {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 button:hover {
     background-color: #d77a46;
 }
-
-
 
