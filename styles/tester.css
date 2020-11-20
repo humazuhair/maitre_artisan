@@ -104,14 +104,14 @@ body{
          
          #address
          {
-            font-family: 'Times New Roman';
+            font-family: Verdana, Monaco, monospace;
             font-size: 250%;
             font-weight: bold;
             text-decoration: underline;
          }
          .zone
          {
-            font-family: 'Times New Roman';
+            font-family: Verdana, Monaco, monospace;
             font-size: 200%;
             
 
@@ -132,4 +132,7 @@ body{
              font-size: 100%;
              font-weight: 550;
          }    
-         
+         .form
+         {
+           font-family:Verdana,Monaco,monospace;
+         }
