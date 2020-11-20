@@ -1,0 +1,135 @@
+* {
+    font-family: Verdana, Monaco, monospace;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 4px;
+}
+
+body{
+    overflow-x: hidden;
+	
+}
+.card-body{
+	height : 10%;
+}
+.card{
+	box-shadow : 5px black;
+}
+.container{
+	margin-top : 2%;
+}
+.inner{
+	overflow : hidden;
+}
+
+.inner img{
+	 transition : all 1.5s ease;
+}
+.inner:hover img{
+	transform : scale(1.5);
+}
+		
+        #localisation
+        {
+        /*width: 300px;
+        height: 300px;
+        background: url("../image/img.PNG")no-repeat;
+        background-size: cover;*/
+        margin-left: -7%;
+        
+        }
+       
+        header
+        {
+            margin-top: -1.5%;
+            background-image: url('../image/house.jpg') ;
+            background-size: cover;
+            padding :12%;
+            height:200%;
+            color : white;
+            box-shadow: 50 50 50px white;
+            animation: fade 20s infinite;
+            margin-bottom:8%;
+        }
+        .a
+        {
+            color:black;
+        }
+
+        input[type=text] {
+            width: 100%;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            box-sizing: border-box;
+            height:40px
+        }
+
+        input[type=number] {
+            width: 100%;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            box-sizing: border-box;
+            height:40px
+        }
+        input[type=submit] {
+            border-radius: 8px;
+            background-color: #b06238;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.2s;
+            float:right;
+        }
+        
+        
+        
+        
+        input[type=submit]:hover {
+            background-color: #d77a46;
+        }
+         input[type="text"]:focus
+         {
+            border: 3px solid #d77a46;
+         }
+         input[type="number"]:focus
+         {
+            border: 3px solid #d77a46;
+            
+         }
+         
+         #address
+         {
+            font-family: 'Times New Roman';
+            font-size: 250%;
+            font-weight: bold;
+            text-decoration: underline;
+         }
+         .zone
+         {
+            font-family: 'Times New Roman';
+            font-size: 200%;
+            
+
+         }
+         .time
+         {
+            font-size: 180%;
+            font-weight: bold;
+         }
+
+         .day
+         {
+            font-size: 130%;  
+            
+         }    
+         .heure
+         {
+             font-size: 100%;
+             font-weight: 550;
+         }    
+         
