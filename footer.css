@@ -1,0 +1,121 @@
+.li {
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    height: 110px;
+    background-color: #b06238;
+}
+
+.icon {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.icons a {
+    justify-self: center;
+    padding: 10px;
+    color: black;
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color: #efcdbc;
+
+}
+
+.tel {
+    display: flex;
+    flex-direction: row;
+    margin-right: 38%;
+    justify-content: space-between;
+
+}
+
+.tel a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-content: center;
+    transition: 0.3s;
+}
+
+.tel a:hover {
+    color: #ffffff;
+}
+
+.footerwood {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../public/images/wood copy.jpg");
+    height: auto;
+}
+
+.footercopyright {
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footercopyright input[type=text] {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
+
+.footercopyright input[type=submit] {
+    border-style: none;
+    font-size: 15px;
+    width: 122px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: gray;
+    transition: 0.5s;
+    border-bottom: none;
+}
+
+.footercopyright input[type=submit]:hover {
+    background-color: #b06238;
+}
+
+.email {
+    margin-right: 30%;
+}
+
+.email p {
+    color: white;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: #c8c5c5;
+}
+
+.email p{
+    font-size: larger;
+}
+.address p {
+      font-size: larger;
+      padding-left: 10px;
+  }
+
+.copyright {
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
