@@ -1,223 +1,164 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="../styles/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/slider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles/tester.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
-    <title>Accueil</title>
+
+    <title>Page Contact</title>
+
 </head>
 <body>
 
-<div class="center">
-    <nav class="navbar mx-auto navbar-expand-md navbar-light sticky-top ">
-        <a href="#" class="navbar-brand navbar-center"><img src="../lolo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link active">ACCUEIL</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class=" nav-link">COUVERTURE</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class=" nav-link">OUVRAGE</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class=" nav-link">CHARPENTE</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class=" nav-link">STAGES</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class=" nav-link">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class=" nav-link">A PROPOS</a>
-                </li>
-                <li class="nav-item ">
-                    <a href="" class="abc"> <i class="fa fa-user fa-lg"></i></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
-
-<div class="">
-    <div class="accueilphoto">
-        <div class="titrealigne">
-            <h1>ABC LEGERMAIN</h1>
-            <h3>ABC = ARTISANAT BOIS CREATION</h3>
-            <a href="contact.html">
-                <button href="contact.html" name="contact">contactez-nous</button>
-            </a>
-        </div>
+<div class="header ">
+    <div class="headerchild">
+        <img src="../lolo.png" alt="logo">
     </div>
-
+    <div class="headerchild">
+        <a class="active" href="accueil.html">ACCUEIL</a>
+    </div>
+    <div class="headerchild">
+        <a href="charpente.html">CHARPENTE</a>
+    </div>
+    <div class="headerchild">
+        <a href="couverture.html">COUVERTURE</a>
+    </div>
+    <div class="headerchild">
+        <a href="ouvrage.html">OUVRAGE</a>
+    </div>
+    <div class="headerchild">
+        <a href="stage.html">STAGES</a>
+    </div>
+    <div class="headerchild">
+        <a href="contact.html">CONTACT</a>
+    </div>
+    <div class="headerchild">
+        <a href="apropos.html">A PROPOS</a>
+    </div>
 </div>
-<div class="bois">
-    <div class="boisaligne">
-        <h3>Bienvenue chez ABC Legermain</h3>
+<div class="accueil">
+    <div class="textaligne">
+        <h1>CONTACTS</h1>
     </div>
 </div>
 
-<div class="accueiltext">
-    <p>Nous serons enchantés de répondre à votre demande pour tout ouvrage spécifique, personnalisé ou non
-        conventionnel.</p>
-    <p> Afin d’être plus concret, nous vous invitons à découvrir, en images, les ouvrages déjà réalisés.</p>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2702.9668370551212!2d0.6985965150255431!3d47.3540454133843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd68e9e50b6ab%3A0x8559ab1a920a9b46!2s8%20Rue%20Gaspard%20Coriolis%2C%2037200%20Tours!5e0!3m2!1sfr!2sfr!4v1605054186938!5m2!1sfr!2sfr"
+            width="100%" height="400" allowfullscreen="allowfullscreen" aria-hidden="false" tabindex="0">
+    </iframe>
 </div>
-<div class="services">
-    <a href="charpente.html">
-        <div class="divcharpente">
-            <p class="servicebutton">CHARPENTE</p>
+<div class="hhh">
+<h2>Contactez-nous</h2>
+
+<div class="contact">
+    <div class="containerleft">
+        <div class="containercontact">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="titre" placeholder="">
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="titre" placeholder="">
+            <label for="ok">E-mail :</label>
+            <input type="email" id="ok" name="email" placeholder="" required/>
+            <label for="tel">Tel :</label>
+            <input type="tel" id="tel" name="titre" placeholder="ex: +33 712345678">
+            <div class="form-group">
+                <label for="selection">Sujet de votre Message :</label>
+                <select class='form-control' required id="selection" name="select">
+                    <option id="select" value='' placeholder="choisir">choisir</option>
+                    <option value='en cours'>en cours</option>
+                    <option value='1'>sujet 1......</option>
+                    <option value='2'>sujet 2......</option>
+                    <option value='3'>sujet 3......</option>
+                    <option value='4'>sujet 4......</option>
+                    <option value='5'>sujet 5......</option>
+                    <option value='6'>sujet 6......</option>
+                </select>
+            </div>
+            <label for="description">Message :</label>
+            <textarea type="longtext" placeholder="votre message ici" id="description" required> </textarea>
+            <input type="submit" value="enregistrer"/>
         </div>
-    </a>
-    <a href="couverture.html">
-        <div class="divcouverture">
-            <p class="servicebutton">COUVERTURE</p>
+    </div>
+    <div class="containerright">
+        <div class="pads">
+            <div class="textcontact">
+                <h2><i class="fa fa-address-book"></i> Contacts</h2>
+                <p><a href="tel:02 47 36 70 34"> <i class="fa fa-phone"></i> 02 47 36 70 34</a></p>
+                <p><a href="mailto:infos@legermain.com"> <i class="fa fa-envelope"></i> infos@legermain.com</a></p>
+            </div>
         </div>
-    </a>
-    <a href="ouvrage.html">
-        <div class="divouvrage">
-            <p class="servicebutton">OUVRAGE</p>
+        <div class="pads">
+            <div class="horaire">
+                <h2><i class="fa fa-clock-o"></i> Horaire</h2>
+                <div class="texthoraire">
+                    <div class="textpadright">
+                        <p>lundi</p>
+                        <p>mardi</p>
+                        <p>mercredi</p>
+                        <p>jeudi</p>
+                        <p>vendredi</p>
+                        <p>samedi</p>
+                        <p>dimanche</p>
+                        <p>jours fériés</p>
+                    </div>
+                    <div class="textpadleft">
+                        <p>6h30–13h30, 15h30–17h50</p>
+                        <p>6h30–13h30, 15h30–17h50</p>
+                        <p>fermé</p>
+                        <p>6h30–13h30, 15h30–17h50</p>
+                        <p>6h30–13h30, 15h30–17h50</p>
+                        <p>6h30–13h30, 15h30–17h50</p>
+                        <p>fermé</p>
+                        <p>6h30–13h30</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </a>
+    </div>
 </div>
-
-<ul class="slides">
-    <input type="radio" name="radio-btn" id="img-1" checked/>
-    <li class="slide-container">
-        <div class="slide">
-            <img src="../public/images/slider/charpente1.jpg" width="2200" height="1000">
-        </div>
-        <div class="nav">
-            <label for="img-6" class="prev"><img src="../public/back.svg" height="100" width="60" alt=""></label>
-            <label for="img-2" class="next"><img src="../public/next.svg" height="100" width="60" alt=""></label>
-        </div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-2"/>
-    <li class="slide-container">
-        <div class="slide">
-            <img src="../public/images/slider/charpente2-2.jpg" width="2200" height="1000" alt="">
-        </div>
-        <div class="nav">
-            <label for="img-1" class="prev"><img src="../public/back.svg" height="100" width="60" alt=""></label>
-            <label for="img-3" class="next"><img src="../public/next.svg" height="100" width="60" alt=""></label>
-        </div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-3"/>
-    <li class="slide-container">
-        <div class="slide">
-            <img src="../public/images/slider/ouvrage1.jpg" width="2200" height="1000" alt="">
-        </div>
-        <div class="nav">
-            <label for="img-2" class="prev"><img src="../public/back.svg" height="100" width="60" alt=""></label>
-            <label for="img-4" class="next"><img src="../public/next.svg" height="100" width="60" alt=""></label>
-        </div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-4"/>
-    <li class="slide-container">
-        <div class="slide">
-            <img src="../public/images/slider/charpente2.jpg" width="2300" height="1000">
-        </div>
-        <div class="nav">
-            <label for="img-3" class="prev"><img src="../public/back.svg" height="100" width="60" alt=""></label>
-            <label for="img-5" class="next"><img src="../public/next.svg" height="100" width="60" alt=""></label>
-        </div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-5"/>
-    <li class="slide-container">
-        <div class="slide">
-            <img src="../public/images/slider/couverture1.jpg" width="2200" height="1000">
-        </div>
-        <div class="nav">
-            <label for="img-4" class="prev"><img src="../public/back.svg" height="100" width="60" alt=""></label>
-            <label for="img-6" class="next"><img src="../public/next.svg" height="100" width="60" alt=""></label>
-        </div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-6"/>
-    <li class="slide-container">
-        <div class="slide">
-            <img src="../public/images/slider/ouvrage2.jpg" width="2300" height="1000">
-        </div>
-        <div class="nav">
-            <label for="img-5" class="prev"><img src="../public/back.svg" height="100" width="60" alt=""></label>
-            <label for="img-1" class="next"><img src="../public/next.svg" height="100" width="60" alt=""></label>
-        </div>
-    </li>
-</ul>
-
-<div class="devis">
-    <button class="button" name="devis">Demander un devis</button>
 </div>
 
 <div class="footer">
     <div class="icons">
         <div class="tel">
-            <ul>
-                <li>
-                    <a href="tel:+33247367034"><img src="../public/images/icons/phone-alt-solid.svg" height="50"
-                                                    width="50" alt=""></a>
-                </li>
-                <li>
-                    <br>
-                    <a href="tel:+33247367034">02 47 36 70 34</a>
-                </li>
-            </ul>
+            <a href="tel:+33247367034"><img src="../public/images/icons/phone-alt-solid.svg" height="50" width="50"
+                                            alt=""> 02 47 36 70 34</a>
         </div>
         <div class="icon">
             <a class="resp-sharing-button__link"
                href="https://www.facebook.com/sharer/sharer.php?u=${'http://localhost:63342/Maitre%20artisan/views/accueil.html?_ijt=k3mif1id8qu0sghuebpubht7ka'}"
                target="_blank"
                rel="noopener" aria-label="Share on Facebook"> <img src="../public/images/icons/share-square-solid.svg"
-                                                                   height="50" width="50" alt=""></a>
+                                                                   height="50" width="50"></a>
             <a href="https://www.facebook.com/legermain.artisan"> <img src="../public/images/icons/facebook-brands.svg"
-                                                                       height="50" width="50" alt=""></a>
+                                                                       height="50" width="50"></a>
             <a href="https://www.instagram.com/abclegermain/"> <img src="../public/images/icons/instagram-brands.svg"
-                                                                    height="50" width="50" alt=""></a>
+                                                                    height="50" width="50"></a>
             <a href="https://twitter.com/abclegermain"> <img src="../public/images/icons/twitter-brands.svg" height="50"
-                                                             width="50" alt=""></a>
+                                                             width="50"></a>
         </div>
     </div>
 
     <div class="footerwood">
-        <div class="footercopyright">
-            <div class="email">
-                <p>newsletter</p>
-                <label><input type="text" placeholder="E-mail"></label>
-                <input type="submit" value="s'inscrire">
-            </div>
+        <div class="email">
+            <label for="email">Newsletter</label><br>
+            <input type="email" id="email" name="email">
+            <button name="inscrire">s'inscrire</button>
+        </div>
 
-            <div class="address">
-                <img src="../public/images/icons/address.svg" height="50" width="50" alt="">
-                <p>Zone Artisanale
-                    <br>72140 Rouez en Champagne</p>
-            </div>
+        <div class="address">
+            <img src="../public/images/icons/address.svg" height="50" width="50" alt="">
+            <h4>Zone Artisanale 72140 Rouez en Champagne
+            </h4>
         </div>
-        <hr>
-        <div class="copyright">
-            <h5>@copyright 2020</h5>
-        </div>
+        <h5>@copyright</h5>
     </div>
-
 </div>
-
 
 </body>
 </html>
